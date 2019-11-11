@@ -23,7 +23,7 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-callback-handler",
+    "start": "egg-scripts start --port 80 --daemon --title=egg-server-callback-handler",
     "stop": "egg-scripts stop --title=egg-server-callback-handler",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
